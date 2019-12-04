@@ -5,10 +5,10 @@
 #### 1. Introduction to Precision Medicine 
 #### 2. Applications of Bioinformatic tools: RNASeq 
 #### 3. Personalizing drugs through pharmacogenomics. 
-####    3.1 Method 1:  Making a drug network 
-####    3.2 Method 2: Freshly-Made Compounded Medicine
-####    3.3 PharmGKB
-#### Next steps in pharmacogenomics.
+####       3.1 Method 1:  Making a drug network 
+####       3.2 Method 2: Freshly-Made Compounded Medicine
+####       3.3 PharmGKB
+#### 4. Next steps in pharmacogenomics.
 
 
 ## Part 1: Introduction to Precision Medicine
