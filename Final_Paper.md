@@ -10,8 +10,8 @@
 
 ## Part 1: Introduction to Precision Medicine<a name="1"></a>
 
->Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person,” according to NIH. That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. 
-#### In other words, the precision medicine aims to customize health care so that each treatment is tailored for every individual in every possible way and our main focus is Pharmacogenomics with an emphasis on the genomic aspect. 
+>Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person,” according to NIH. 
+#### That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. In other words, the precision medicine aims to customize health care so that each treatment is tailored for every individual in every possible way and our main focus is Pharmacogenomics with an emphasis on the genomic aspect. 
 
 
 ## Part 2: A Brief History  on Pharmacogenetics & Pharmacogenomics<a name="2"></a>
@@ -36,7 +36,7 @@
 should i put my stuff between parts 2 and 3? steve
 After 3. you are section 4! 
 
-## Part 4: Drug production through pharmacogenomics <a name="4"></a>
+## Part 4: Drug production through pharmacogenomics <a name="3"></a>
 
 
 
