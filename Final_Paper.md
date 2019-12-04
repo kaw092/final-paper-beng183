@@ -10,7 +10,7 @@
 
 ## Part 1: Introduction to Precision Medicine<a name="1"></a>
 
-#### Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person,” according to NIH. That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. 
+>Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person,” according to NIH. That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. 
 #### In other words, the precision medicine aims to customize health care so that each treatment is tailored for every individual in every possible way and our main focus is Pharmacogenomics with an emphasis on the genomic aspect. 
 
 
@@ -34,7 +34,9 @@
 #### As previously discussed in regards to the naive approach, testing for drug sensitivity experimentally can be both costly and invasive to patients. However, with the advancement of high throughput sequencing, it has become possible to assess phenotypic reactions to treatment at a lower cost while obtaining more information on a molecular level. This allows researchers to have a better understanding of how gene expression differs between subpopulations who have different sensitivity to a given drug. Thus, RNA-Seq equips researchers to evaluate the complexities of drug responses through transcriptome data of  populations. RNA-seq can better advance pharmacogenomics since it connects drug sensitivity to gene expression which is crucial to the development of  more effective therapies.
 
 should i put my stuff between parts 2 and 3? steve
+After 3. you are section 4! 
 
+## Part 4: Drug production through pharmacogenomics <a name="4"></a>
 
 
 
