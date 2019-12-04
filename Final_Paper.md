@@ -5,7 +5,8 @@
 #### 1. [Introduction to Precision Medicine](#1) 
 #### 2. [Applications of Bioinformatic tools:RNASeq](#2) 
 #### 3. [Personalizing drugs through pharmacogenomics.](#3) 
-#### 4. [Next steps in pharmacogenomics.](#4) 
+#### 4. [Next steps in pharmacogenomics.](#4)
+#### 5. [References](#5)
 
 
 ### Part 1: Introduction to Precision Medicine<a name="1"></a>
@@ -38,8 +39,10 @@ As previously discussed in regards to the naive approach, testing for drug sensi
 should i put my stuff between parts 2 and 3? steve
 After 3. you are section 4! 
 
-### Part 4: Drug production through pharmacogenomics <a name="3"></a>
+### Part 3: Drug production through pharmacogenomics <a name="3"></a>
 
+### Part 4: Next steps in pharmacogenomics <a name="4"></a>
+### Part 5: References <a name="5"></a>
 
 
 
