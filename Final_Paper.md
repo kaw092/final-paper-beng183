@@ -11,14 +11,15 @@
 ## Part 1: Introduction to Precision Medicine<a name="1"></a>
 
 >Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person,” according to NIH. 
-#### That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. In other words, the precision medicine aims to customize health care so that each treatment is tailored for every individual in every possible way and our main focus is Pharmacogenomics with an emphasis on the genomic aspect. 
+
+That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. In other words, the precision medicine aims to customize health care so that each treatment is tailored for every individual in every possible way and our main focus is Pharmacogenomics with an emphasis on the genomic aspect. 
 
 
 ## Part 2: A Brief History  on Pharmacogenetics & Pharmacogenomics<a name="2"></a>
 
 #### To be able to understand how pharmacogenomics came to be, we must first introduce Pharmacogenetics, a science that was recognized in the late 1950s which was dependent on “ the occurrence of unusual reactions to drugs on the basis of biochemical individuality.”  *1Revolving around studies that focus on “many different genetic changes of the enzyme that altered its functional characteristics”. It later became clear that drug effects tend to differentiate not only between populations, genders, and races but also between individuals. Drug metabolism also differs between individuals due to polymorphisms in drug-metabolizing enzymes leading to variability in the effectiveness of drugs. For example, some metabolizers may absorb more of a specific drug than others across individuals, leading some of the drugs as well as some doses to be ineffective or inefficient to specific individuals. 
 #### These findings were the building blocks of what we know today as Pharmacogenomics; the application of genomic technologies to drugs in clinical development. “ Pharmacogenomics exists a the intersection of pharmacology and genomics”*2, taking into consideration the “drug-metabolism phenotypes” of patients to better design drugs, drug combinations, and dosages for individual patients. Pharmacogenomic investigations require an increased use of methods designed to study many genes or gene patterns, that is to look simultaneously at the structure and expression of whole sets of genes. Such methods include high throughput sequencing technologies such as MALDI mass spectrometry, SAGE,  microarrays, linkage and haplotype analysis
-![Puppy0](https://www.merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/puppy-3143-ad4140d8f6055cda2cd8956d4af37ea9@1x.jpg "A puppy!")
+#![Puppy0](https://www.merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/puppy-3143-ad4140d8f6055cda2cd8956d4af37ea9@1x.jpg "A puppy!")
 
 ## Part 3: Applications of Bioinformatic tools: RNA-Seq
 
