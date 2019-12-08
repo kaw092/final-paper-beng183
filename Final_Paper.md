@@ -3,26 +3,30 @@
 
 ### Overview:
 #### 1. [Introduction to Precision Medicine](#1) 
-#### 2. [Applications of Bioinformatic tools:RNASeq](#2) 
+#### 2. [A Brief History on Pharmacogenetics & Pharmacogenomics.](#2)
 #### 3. [Personalizing drugs through pharmacogenomics.](#3) 
-#### 4. [Next steps in pharmacogenomics.](#4)
-#### 5. [References](#5)
+#### 4. [Applications of Bioinformatic tools:RNASeq](#4) 
+#### 5. [Next steps in pharmacogenomics.](#5)
+#### 6. [References](#6)
 
 
 ### Part 1: Introduction to Precision Medicine<a name="1"></a>
 
->Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person,” according to NIH. 
+>According to NIH,Precision medicine is “an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person.”[1]  
 
-That is to say, precision medicine is a form of specific therapeutics tailored for each patient through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. In other words, the precision medicine aims to customize health care so that each treatment is tailored for every individual in every possible way and our main focus is Pharmacogenomics with an emphasis on the genomic aspect. 
+That is to say, precision medicine is a specific form of therapeutics tailored for each subpopulation of patients through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. Precision medicine aims to customize health care so that each treatment is tailored for every subpopulation in every possible way. Our main focus is pharmacogenomics with emphasis on genomic approaches. 
+
+![Precision medicine](https://www.researchgate.net/figure/Schematic-outlining-the-clinical-implementation-of-CvM-genetic-testing-A-Deep_fig1_305643447)
+### Part 2: A Brief History on Pharmacogenetics & Pharmacogenomics<a name="2"></a>
+
+To be able to understand how pharmacogenomics came to be, we must first introduce Pharmacogenetics, a science that was recognized in the late 1950s which was dependent on “ the occurrence of unusual reactions to drugs on the basis of biochemical individuality.”[1]Revolving around studies that focus on “many different genetic changes of the enzyme that altered its functional characteristics”.[2] It later became clear that drug effects differentiate not only between populations, genders, and races but also between individuals. Drug metabolism also differs between individuals due to polymorphisms in drug-metabolizing enzymes leading to variability in the effectiveness of drugs. For example, some metabolizers may absorb more of a specific drug than others across individuals, leading some of the drugs as well as some doses to be ineffective or inefficient to specific individuals. 
+
+These findings were the building blocks of what we know today as Pharmacogenomics: the application of genomic technologies to drugs in clinical development. “ Pharmacogenomics exists a the intersection of pharmacology and genomics”[2], taking into consideration the “drug-metabolism phenotypes” of patients to better design drugs, drug combinations, and dosages for individual patients. Pharmacogenomic investigations require an increased use of methods designed to study many genes or gene patterns, that is to look simultaneously at the structure and expression of whole sets of genes. Such methods include high throughput sequencing technologies such as MALDI mass spectrometry, SAGE,  microarrays, RNA-Seq, linkage and haplotype analysis.
+
+### Part 3: Drug production through pharmacogenomics <a name="3"></a>
 
 
-### Part 2: A Brief History  on Pharmacogenetics & Pharmacogenomics<a name="2"></a>
-
-To be able to understand how pharmacogenomics came to be, we must first introduce Pharmacogenetics, a science that was recognized in the late 1950s which was dependent on “ the occurrence of unusual reactions to drugs on the basis of biochemical individuality.”  *1Revolving around studies that focus on “many different genetic changes of the enzyme that altered its functional characteristics”. It later became clear that drug effects tend to differentiate not only between populations, genders, and races but also between individuals. Drug metabolism also differs between individuals due to polymorphisms in drug-metabolizing enzymes leading to variability in the effectiveness of drugs. For example, some metabolizers may absorb more of a specific drug than others across individuals, leading some of the drugs as well as some doses to be ineffective or inefficient to specific individuals. 
-These findings were the building blocks of what we know today as Pharmacogenomics; the application of genomic technologies to drugs in clinical development. “ Pharmacogenomics exists a the intersection of pharmacology and genomics”*2, taking into consideration the “drug-metabolism phenotypes” of patients to better design drugs, drug combinations, and dosages for individual patients. Pharmacogenomic investigations require an increased use of methods designed to study many genes or gene patterns, that is to look simultaneously at the structure and expression of whole sets of genes. Such methods include high throughput sequencing technologies such as MALDI mass spectrometry, SAGE,  microarrays, linkage and haplotype analysis
-![Puppy0](https://www.merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/puppy-3143-ad4140d8f6055cda2cd8956d4af37ea9@1x.jpg "A puppy!")
-
-### Part 3: Applications of Bioinformatic tools: RNA-Seq
+### Part 4: Applications of Bioinformatic tools: RNA-Seq<a name="4"></a>
 
 *Identifying genetic factors excluding people from conventional medicine*
 
@@ -39,7 +43,7 @@ As previously discussed in regards to the naive approach, testing for drug sensi
 should i put my stuff between parts 2 and 3? steve
 After 3. you are section 4! 
 
-### Part 3: Drug production through pharmacogenomics <a name="3"></a>
+
 
 #### Method 1: Making a drug network
 A group led by Ke-Jia Xu pioneered the creation of a drug network. This network and the corresponding formula predicts synergistic drugs, thus saves time otherwise wasted on testing useless combinations by brute force.
@@ -70,28 +74,37 @@ To name a few that Xu favors, Dermatologists confirmed the efficacy of their com
 
 One drawback to the network is that, while they identify complementary combos, they lack info on the dosages or drug concentrations. Many conventional medicine advise patients to take an arbitrary amount, an amount catered to average folks. But it defeats precision medicine’s purposes to generalize dosage, so longer trials, lengthened due to the need to gather results arising from different dosages and their effects on the subjects. With the billions of existing drugs, an amount growing by the second, the optimized methods described here may still take a frustratingly long amount of time. Certain diseases may need to be prioritized, meaning the treatment for others must endure delays. 
 
-#### Method 2: Freshly-Made Compounded Medicine (Falconer)
+#### Method 2: Freshly-Made Compounded Medicine (Falconer) ![crushing_drugs](https://i.imgur.com/Hia7EMP.jpg)
 
 In some cases, patients lack the time needed for analysts to finish constructing their graphs and verifying their results via clinical trials therefore leading to different methodologies, varying in difficulty, to produce medicine on demand. 
-![crushing_drugs](https://i.imgur.com/Hia7EMP.jpg)
+
 For instance, the simplest method is simply crushing the solid form of a medicine and mixing it into water. The liquid counterpart proves to be more amenable to those afflicted with dysphagia, a condition that impedes swallowing. Researchers may ascertain this condition’s presence by scanning for substitutions of Valine to Methionine due to polymorphism of rs2565 of the BDNF gene, a gene heavily involved the esophageal motor functions. Said polymorphism was discovered via transcranial magnetic stimulation which correlated with the SNPs locating the substitutions. However, some medicinal ingredients are insoluble, and attempts to mix them may create solid deposits that threaten to choke the drinker. Inactive excipients, components that accompany but have no effect on the drug’s active ingredients’ efficacy, can be incorporated to increase solubility. 
+
 There are downsides to this approach since the distribution of these remedies have less standards to adhere to than the preparation of drug themselves which call into question to their stability and safety. As well as being vulnerable to degradation, such as oxidation or hydrolysis, which impairs the body’s ability to absorb the drugs or facilitates the synthesis of unexpected and potentially dangerous byproducts. Water content, which is prevalent in medicinal solutions, can devolve into breeding grounds for various microorganisms. Special attention must be paid, like controlling the pH or temperature, to maintain sterility. Since they’re brewed on demand, the combinations must be known beforehand, but since predictive methods like the drug network exist, it renders this limitation moot. 
 
 However these downsides don’t brand this method as irredeemably bad since most of its products, which range from ointments to suppositories, are advised and designed for consumption moments after production, denying time that may otherwise be spent to degrade or contaminate the medicine. 
 
 
 ### Part 4: Next steps in pharmacogenomics <a name="4"></a>
+
+
 ### Part 5: References <a name="5"></a>
 
-[1]Liu, X. et al. A systematic study on drug-response associated genes using baseline gene expressions of the Cancer Cell Line Encyclopedia. Sci. Rep. 6, 22811; doi: 10.1038/srep22811 (2016).
+[1]Kalow, W. Pharmacogenetics and pharmacogenomics: origin, status, and the hope for personalized medicine. Pharmacogenomics J 6, 162–165 (2006) doi:10.1038/sj.tpj.6500361
 
-[2]Qs Li, C Tian., et al. “Analysis of 23andMe antidepressant efficacy survey data: implication of circadian rhythm and neuroplasticity in bupropion response.” Translational Psychiatry, 2016, doi:10.1038/tp.2016.171
+[2]Innocenti, Federico. Pharmacogenomics Methods and Protocols. Human, 2016
 
-[3]SEARCH Collaborative group. “SLCO1B1 Variants and Statin-Induced Myopathy — A Genomewide Study.” The New England Journal of Medicine, 2008, doi:10.1056/ NEJMoa0801936. [PubMed: 18650507]
+[3]Liu, X. et al. A systematic study on drug-response associated genes using baseline gene expressions of the Cancer Cell Line Encyclopedia. Sci. Rep. 6, 22811; doi: 10.1038/srep22811 (2016).
 
-[4]Xu et al.: The drug cocktail network. BMC Systems Biology 2012 6(Suppl 1):S5.
+[4]Qs Li, C Tian., et al. “Analysis of 23andMe antidepressant efficacy survey data: implication of circadian rhythm and neuroplasticity in bupropion response.” Translational Psychiatry, 2016, doi:10.1038/tp.2016.171
 
-[5]James R Falconer, Kathryn J Steadman. “Extemporaneously compounded medicines”. Australian Prescriber, 2017. doi:10.18773/austprescr.2017.001
+[5]SEARCH Collaborative group. “SLCO1B1 Variants and Statin-Induced Myopathy — A Genomewide Study.” The New England Journal of Medicine, 2008, doi:10.1056/ NEJMoa0801936. [PubMed: 18650507]
+
+[6]Xu et al.: The drug cocktail network. BMC Systems Biology 2012 6(Suppl 1):S5.
+
+[7]James R Falconer, Kathryn J Steadman. “Extemporaneously compounded medicines”. Australian Prescriber, 2017. doi:10.18773/austprescr.2017.001
+
+[8] C. Kupiec, Thomas.  Raj, Vishnu. Vu, Nicole. Basics of Pharmacogenomics for the Compounding Pharmacist.  International Journal of Pharmaceutical Compounding, Vol. 9 No. 4 July/August 2005 
 
 
 
