@@ -68,8 +68,6 @@ ATCk(d) denotes the ATC codes at the Kth level. This is then used to calculate T
   However these downsides don’t brand this method as irredeemably bad since most of its products, which range from ointments to suppositories, are advised and designed for consumption moments after production, denying time that may otherwise be spent to degrade or contaminate the medicine. 
 ### Part 4. Applications of Bioinformatic tools:RNASeq<a name="4"></a>
 
-### Part 5: Next steps in pharmacogenomics <a name="5"></a>
-
 #### Identifying genetic factors excluding people from conventional medicine
   The presence of an abnormal gene can lead to a line of descendants exhibiting sensitivity towards drugs that are otherwise beneficial to those bearing the same illness. The naive way, is to commission a control and treatment group so that sensitivity can be evaluated. However, it is not only a costly procedure but also unethical in cases where the illness necessitates drastic treatments like chemotherapy, which harms both healthy and ill individuals alike.
   Instead, researchers utilized subjects who provided consent as well as a completed a survey to provide biographical information latter used to present phenotypic classification for the data. The subjects also provided saliva samples that were used to gather data about single nucleotide polymorphisms(SNPs). Through this, genome-wide association studies(GWAS) were able to analyze each class’s SNPs. The latter proves useful for GWAS that will analyze each class’s SNPs. The data from these GWAS can be subjected through association tests with logical regression that’ll produce a p-value determining significance. Small p values indicated that these patients are inheritors of unique markers or conditions that affect their ability to get regular medicine(Qs Li). The presence of these unique markers inform medical providers to select a more precise treatment for patients. 
@@ -78,7 +76,19 @@ ATCk(d) denotes the ATC codes at the Kth level. This is then used to calculate T
 #### Connecting RNA-Seq
   As previously discussed in regards to the naive approach, testing for drug sensitivity experimentally can be both costly and invasive to patients. However, with the advancement of high throughput sequencing, it has become possible to assess phenotypic reactions to treatment at a lower cost while obtaining more information on a molecular level. This allows researchers to have a better understanding of how gene expression differs between subpopulations who have different sensitivity to a given drug. Thus, RNA-Seq equips researchers to evaluate the complexities of drug responses through transcriptome data of  populations. RNA-seq can better advance pharmacogenomics since it connects drug sensitivity to gene expression which is crucial to the development of  more effective therapies.
   To better visualize the drug sensitivity across the cell lines, a histogram  denoted  a sensitivity value for each drug treated across 323 cell lines. By measuring the area under the dose-response curve(denoted as activity area) the sensitivity of the drug was measured. 
-![image](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4785360_srep22811-f1.jpg)
+![image](srep22811-f1.jpg)
+
+Figure 2: Each histogram denotes the distribution of sensitivity values of a drug treating on cancer cell lines.
+
+  Thus, an example of the application of RNA-Seq in better defining the transcriptome differences between populations with diverse phenotypic drug response is seen) in a study that has combined drug sensitivity studies and the Cancer Cell Line Encyclopedia (CCLE) to investigate possible causes for adverse drug response across cancer cell types through analysis of differential expression of drug-response associated (DRA) genes. In recent years, studies have focused on the identification of DRA biomarkers due to their association with anti-cancer drug sensitivity and the success of clinical trials which used drugs specifically targeting these genes. The study used data from the CCLE since it provides a valuable resource of gene expression profiles of 20,069 genes for 504 human cancer cell lines. The gene expression levels allowed for the use of a method (defined below)to calculate the drug sensitivity across the genes in all 
+samples. 
+
+  A linear regression model was used in order to inquire which genes are sensitive to each drug across all samples while taking into consideration confounding factors such as age, batch, cancer type, tissue and cancer cell line genotype. These factors were chosen because they are hypothesized to contribute to gene expression variation in response to drug treatment.
+
+Through this, the sensitivity regression coefficient, γj was calculated across all samples and all genes  
+
+
+### Part 5: Next steps in pharmacogenomics <a name="5"></a>
 
 ### Part 6: References <a name="6"></a>
 
