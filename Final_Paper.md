@@ -16,7 +16,7 @@
 
 That is to say, precision medicine is a specific form of therapeutics tailored for each subpopulation of patients through the use of tools such as pharmacogenomics; an offspring of pharmacogenetics. Precision medicine aims to customize health care so that each treatment is tailored for every subpopulation in every possible way. Our main focus is pharmacogenomics with emphasis on genomic approaches. 
 
-![Precision medicine](https://www.researchgate.net/figure/Schematic-outlining-the-clinical-implementation-of-CvM-genetic-testing-A-Deep_fig1_305643447)
+![pm.img]
 ### Part 2: A Brief History on Pharmacogenetics & Pharmacogenomics<a name="2"></a>
 
 To be able to understand how pharmacogenomics came to be, we must first introduce Pharmacogenetics, a science that was recognized in the late 1950s which was dependent on “ the occurrence of unusual reactions to drugs on the basis of biochemical individuality.”[1]Revolving around studies that focus on “many different genetic changes of the enzyme that altered its functional characteristics”.[2] It later became clear that drug effects differentiate not only between populations, genders, and races but also between individuals. Drug metabolism also differs between individuals due to polymorphisms in drug-metabolizing enzymes leading to variability in the effectiveness of drugs. For example, some metabolizers may absorb more of a specific drug than others across individuals, leading some of the drugs as well as some doses to be ineffective or inefficient to specific individuals. 
@@ -40,8 +40,7 @@ Another example of genome-wide studies revealing problematic SNPs is a study by 
 
 As previously discussed in regards to the naive approach, testing for drug sensitivity experimentally can be both costly and invasive to patients. However, with the advancement of high throughput sequencing, it has become possible to assess phenotypic reactions to treatment at a lower cost while obtaining more information on a molecular level. This allows researchers to have a better understanding of how gene expression differs between subpopulations who have different sensitivity to a given drug. Thus, RNA-Seq equips researchers to evaluate the complexities of drug responses through transcriptome data of  populations. RNA-seq can better advance pharmacogenomics since it connects drug sensitivity to gene expression which is crucial to the development of  more effective therapies.
 
-should i put my stuff between parts 2 and 3? steve
-After 3. you are section 4! 
+
 
 
 
@@ -85,10 +84,10 @@ There are downsides to this approach since the distribution of these remedies ha
 However these downsides don’t brand this method as irredeemably bad since most of its products, which range from ointments to suppositories, are advised and designed for consumption moments after production, denying time that may otherwise be spent to degrade or contaminate the medicine. 
 
 
-### Part 4: Next steps in pharmacogenomics <a name="4"></a>
+### Part 5: Next steps in pharmacogenomics <a name="5"></a>
 
 
-### Part 5: References <a name="5"></a>
+### Part 6: References <a name="6"></a>
 
 [1]Kalow, W. Pharmacogenetics and pharmacogenomics: origin, status, and the hope for personalized medicine. Pharmacogenomics J 6, 162–165 (2006) doi:10.1038/sj.tpj.6500361
 
