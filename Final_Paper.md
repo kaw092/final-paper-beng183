@@ -30,8 +30,9 @@ An overall layout of the procedure is seen below
   Combining drugs allows them to accomplish what one alone cannot, enabling treatment of aggressive diseases such as cancer from multiple angles. These drugs tend to be more selective, with a limited scope, granting more precise action and lessened side effects. Incorporating selective medicines forms a medicinal team capable of launching several accurate defenses at multiple areas. However, careless combination can lead drugs to counter each other’s effects, a quality known as antagonism.
   A group led by Ke-Jia Xu pioneered the creation of a drug network. The network and corresponding formula predicts synergistic drugs and thus saves time otherwise wasted on testing combinations by brute force. Drug network construction is an efficient method where drugs are represented as nodes and connected by edges with widths proportional to their ability to complement one another also known as therapeutic similarity. The following equation depicts how the drug network is constructed. 
  
-![equation](https://i.imgur.com/prcTXxT.gif)
-*N is the number of drugs in the network
+![equation](fig1.png)
+
+N is the number of drugs in the network
 *n1 & n2 are the partners of drugs 1 and 2
 *m is the number of chemicals they have in common with each other.
   -Drugs not connected by edges would create useless, if not harmful combinations
