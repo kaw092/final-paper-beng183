@@ -71,19 +71,28 @@ To name a few that Xu favors, Dermatologists confirmed the efficacy of their com
 One drawback to the network is that, while they identify complementary combos, they lack info on the dosages or drug concentrations. Many conventional medicine advise patients to take an arbitrary amount, an amount catered to average folks. But it defeats precision medicine’s purposes to generalize dosage, so longer trials, lengthened due to the need to gather results arising from different dosages and their effects on the subjects. With the billions of existing drugs, an amount growing by the second, the optimized methods described here may still take a frustratingly long amount of time. Certain diseases may need to be prioritized, meaning the treatment for others must endure delays. 
 
 #### Method 2: Freshly-Made Compounded Medicine (Falconer)
+
 In some cases, patients lack the time needed for analysts to finish constructing their graphs and verifying their results via clinical trials therefore leading to different methodologies, varying in difficulty, to produce medicine on demand. 
-
-![crushing_drugs](https://i.imgur.com/Hia7EMP.jpg) 
-For instance, the simplest method is simply crushing the solid form of a medicine and mixing it into water. 
-
-The liquid counterpart proves to be more amenable to those afflicted with dysphagia, a condition that impedes swallowing. Researchers may ascertain this condition’s presence by scanning for substitutions of Valine to Methionine due to polymorphism of rs2565 of the BDNF gene, a gene heavily involved the esophageal motor functions. Said polymorphism was discovered via transcranial magnetic stimulation which correlated with the SNPs locating the substitutions. However, some medicinal ingredients are insoluble, and attempts to mix them may create solid deposits that threaten to choke the drinker. Inactive excipients, components that accompany but have no effect on the drug’s active ingredients’ efficacy, can be incorporated to increase solubility. 
-There are downsides to this approach. Unlike the standards their preparation must adhere to, their distribution enjoy lots of freedom from said standards which can bring question to their stability and safety. They’re also vulnerable to degradation, such as oxidation or hydrolysis, which impairs the body’s ability to absorb the drugs or facilitates the synthesis of unexpected and potentially dangerous byproducts. Water content, which is prevalent in medicinal solutions, can devolve into breeding grounds for various microorganisms. Special attention must be paid, like controlling the pH or temperature, to maintain sterility. Since they’re brewed on demand, the combinations must be known beforehand, but since predictive methods like the drug network exist, it renders this limitation moot. 
+![crushing_drugs](https://i.imgur.com/Hia7EMP.jpg)
+For instance, the simplest method is simply crushing the solid form of a medicine and mixing it into water. The liquid counterpart proves to be more amenable to those afflicted with dysphagia, a condition that impedes swallowing. Researchers may ascertain this condition’s presence by scanning for substitutions of Valine to Methionine due to polymorphism of rs2565 of the BDNF gene, a gene heavily involved the esophageal motor functions. Said polymorphism was discovered via transcranial magnetic stimulation which correlated with the SNPs locating the substitutions. However, some medicinal ingredients are insoluble, and attempts to mix them may create solid deposits that threaten to choke the drinker. Inactive excipients, components that accompany but have no effect on the drug’s active ingredients’ efficacy, can be incorporated to increase solubility. 
+There are downsides to this approach since the distribution of these remedies have less standards to adhere to than the preparation of drug themselves which call into question to their stability and safety. As well as being vulnerable to degradation, such as oxidation or hydrolysis, which impairs the body’s ability to absorb the drugs or facilitates the synthesis of unexpected and potentially dangerous byproducts. Water content, which is prevalent in medicinal solutions, can devolve into breeding grounds for various microorganisms. Special attention must be paid, like controlling the pH or temperature, to maintain sterility. Since they’re brewed on demand, the combinations must be known beforehand, but since predictive methods like the drug network exist, it renders this limitation moot. 
 
 However these downsides don’t brand this method as irredeemably bad since most of its products, which range from ointments to suppositories, are advised and designed for consumption moments after production, denying time that may otherwise be spent to degrade or contaminate the medicine. 
 
 
 ### Part 4: Next steps in pharmacogenomics <a name="4"></a>
 ### Part 5: References <a name="5"></a>
+
+[1]Liu, X. et al. A systematic study on drug-response associated genes using baseline gene expressions of the Cancer Cell Line Encyclopedia. Sci. Rep. 6, 22811; doi: 10.1038/srep22811 (2016).
+
+[2]Qs Li, C Tian., et al. “Analysis of 23andMe antidepressant efficacy survey data: implication of circadian rhythm and neuroplasticity in bupropion response.” Translational Psychiatry, 2016, doi:10.1038/tp.2016.171
+
+[3]SEARCH Collaborative group. “SLCO1B1 Variants and Statin-Induced Myopathy — A Genomewide Study.” The New England Journal of Medicine, 2008, doi:10.1056/ NEJMoa0801936. [PubMed: 18650507]
+
+[4]Xu et al.: The drug cocktail network. BMC Systems Biology 2012 6(Suppl 1):S5.
+
+[5]James R Falconer, Kathryn J Steadman. “Extemporaneously compounded medicines”. Australian Prescriber, 2017. doi:10.18773/austprescr.2017.001
+
 
 
 
