@@ -31,11 +31,12 @@ An overall layout of the procedure is seen below
  
 ![equation](eq2.PNG)</br>
 
-N is the number of drugs in the network
-n1 & n2 are the partners of drugs 1 and 2
-m is the number of chemicals they have in common with each other.
-  -Drugs not connected by edges would create useless, if not harmful combinations
-  -The closer this value is to 0, the likelier the chance a useful combo has been found, which will form an edge between these drug nodes.
+* N is the number of drugs in the network</br>
+* n1 & n2 are the partners of drugs 1 and 2</br>
+* m is the number of chemicals they have in common with each other</br>
+
+-Drugs not connected by edges would create useless, if not harmful combinations
+ -The closer this value is to 0, the likelier the chance a useful combo has been found, which will form an edge between these drug nodes.
 
 ![drug_network](https://i.imgur.com/TSMWvAu.jpg)
 Drug nodes that are particularly popular with other drugs are colored red, meaning they’ll be crucial to many effective drug combos which can alert manufacturers to prioritize the production of this  specific drug/ingredient.
@@ -47,8 +48,8 @@ Drug nodes that are particularly popular with other drugs are colored red, meani
 ATCk(d) denotes the ATC codes at the Kth level. This is then used to calculate Therapeutic similarity:
 
 ![TS_equation2](https://i.imgur.com/btjOcUw.gif)</br>
-d1 and d2 are the two drugs represented as nodes to be connected or not and 
-n ranges from 1 to 5, representing all possible ATC levels.	
+* d1 and d2 are the two drugs represented as nodes to be connected or not</br>
+* n ranges from 1 to 5, representing all possible ATC levels.	</br>
 
   -Therapeutic similarity can be understood to be a measure of effectiveness of a drug pair. 
   -This value determines the width of the edge connecting the two nodes. No edge means no similarity.
@@ -98,24 +99,24 @@ Through this, the sensitivity regression coefficient, γj was calculated across 
 
 ![equa4](eq4.PNG)</br>
 
-Yij is the expression level of gene j in sample i 
-Sensitivityi is the drug sensitivity of sample i
-Agei denotes the age of sample i,
-Sexi denotes the sex of sample i
-Batchi denotes the batch information of sample i,
-Canceri denotes the cancer type of sample i
-Tissuei denotes the tissue type of sample i
-Genotypeik denotes the k-th principle component value of the genotype profile for the i-th sample
-εij is the error term
-βj is the regression intercept
-γj is the sensitivity regression coefficient (if γj > 0positively associated and negatively associated if γj < 0) 
-λj is the age regression coefficient
-μj is the sex regression coefficient
-θj is the batch regression coefficient
-κj is the cancer type regression coefficient
-ϕj is the tissue regression coefficient
-δk is the regression coefficient for the k-th genotype PC.
-Sexi, Batchi, Canceri, Tissuei are factor variables.
+* Yij is the expression level of gene j in sample i </br>
+* Sensitivityi is the drug sensitivity of sample i</br>
+* Agei denotes the age of sample i,</br>
+* Sexi denotes the sex of sample i</br>
+* Batchi denotes the batch information of sample i,</br>
+* Canceri denotes the cancer type of sample i </br>
+* Tissuei denotes the tissue type of sample i </br>
+* Genotypeik denotes the k-th principle component value of the genotype profile for the i-th sample </br>
+* εij is the error term </br>
+* βj is the regression intercept </br>
+* γj is the sensitivity regression coefficient (if γj > 0positively associated and negatively associated if γj < 0) </br>
+* λj is the age regression coefficient</br>
+* μj is the sex regression coefficient</br>
+* θj is the batch regression coefficient</br>
+* κj is the cancer type regression coefficient</br>
+* ϕj is the tissue regression coefficient </br>
+* δk is the regression coefficient for the k-th genotype PC.</br>
+* Sexi, Batchi, Canceri, Tissuei are factor variables.</br>
 
 
 From the outputted sensitivity coefficients, a permutation test was run 1,000 times to determine if each gene was found significantly sensitive to each drug. A gene was considered significantly sensitive to a drug if the value of its sensitivity coefficient was determined greater than or less than 0 by the permutation test. Further, Benjamini Hochberg method was used to adjust the p-values with a False Discovery Rate (FDR) of less than 0.1. Drugs with 20 or less DRAs identified were not included in the rest of the study leaving 14 drugs after this analysis.
