@@ -88,10 +88,9 @@ Another example of genome-wide studies revealing problematic SNPs is a study by 
 As previously discussed in regards to the naive approach, testing for drug sensitivity experimentally can be both costly and invasive to patients. However, with the advancement of high throughput sequencing, it has become possible to assess phenotypic reactions to treatment at a lower cost while obtaining more information on a molecular level. This allows researchers to have a better understanding of how gene expression differs between subpopulations who have different sensitivity to a given drug. Thus, RNA-Seq equips researchers to evaluate the complexities of drug responses through transcriptome data of  populations. RNA-seq can better advance pharmacogenomics since it connects drug sensitivity to gene expression which is crucial to the development of  more effective therapies.
 
 Drug sensitivity can be visualized as a histogram. Below, histograms are denoted  as sensitivity value for each 323 cell lines treated with 24 drugs. The sensitivity of the drug was measured by measuring the area under the dose-response curve (denoted as activity area). 
-
+Each histogram denotes the distribution of sensitivity values of a drug treating on cancer cell lines.</br>
 ![image](srep22811-f1.jpg)</br>
 
-Figure 2: Each histogram denotes the distribution of sensitivity values of a drug treating on cancer cell lines.
 
  An example of the application of RNA-Seq in better defining the transcriptome differences between populations with diverse phenotypic drug response is seen in a study that has combined drug sensitivity studies and the Cancer Cell Line Encyclopedia (CCLE) to investigate possible causes for adverse drug response across cancer cell types through analysis of differential expression of drug-response associated (DRA) genes. In recent years, studies have focused on the identification of DRA biomarkers due to their association with anti-cancer drug sensitivity and the success of clinical trials which used drugs specifically targeting these genes. The study used data from the CCLE since it provides a valuable resource of gene expression profiles of 20,069 genes for 504 human cancer cell lines. The gene expression levels allowed for the use of a method (defined below) to calculate the drug sensitivity across the genes in all 
 samples. 
