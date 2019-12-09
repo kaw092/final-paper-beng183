@@ -30,18 +30,17 @@ An overall layout of the procedure is seen below
   A group led by Ke-Jia Xu pioneered the creation of a drug network. The network and corresponding formula predicts synergistic drugs and thus saves time otherwise wasted on testing combinations by brute force. Drug network construction is an efficient method where drugs are represented as nodes and connected by edges with widths proportional to their ability to complement one another also known as therapeutic similarity. The following equation depicts how the drug network is constructed. 
  
 ![equation](eq2.PNG)</br>
-
 * N is the number of drugs in the network</br>
 * n1 & n2 are the partners of drugs 1 and 2</br>
 * m is the number of chemicals they have in common with each other</br>
 
--Drugs not connected by edges would create useless, if not harmful combinations
- -The closer this value is to 0, the likelier the chance a useful combo has been found, which will form an edge between these drug nodes.
+Drugs not connected by edges would create useless, if not harmful combinations</br>
+The closer this value is to 0, the likelier the chance a useful combo has been found, which will form an edge between these drug nodes.</br>
 
-![drug_network](https://i.imgur.com/TSMWvAu.jpg)
+![drug_network](https://i.imgur.com/TSMWvAu.jpg)</br>
 Drug nodes that are particularly popular with other drugs are colored red, meaning they’ll be crucial to many effective drug combos which can alert manufacturers to prioritize the production of this  specific drug/ingredient.
   
-  Alternatively, since drug networks aren’t the first attempt to calculate effective combinations, it’s also possible to draw data from previous forays to simplify the process, like the Drug Combination Database. After expelling the combos lacking Anatomical Therapeutic Chemical (ATC), which saves computational time, they feed the ATC of various drugs into the following formula 
+Alternatively, since drug networks aren’t the first attempt to calculate effective combinations, it’s also possible to draw data from previous forays to simplify the process, like the Drug Combination Database. After expelling the combos lacking Anatomical Therapeutic Chemical (ATC), which saves computational time, they feed the ATC of various drugs into the following formula 
 
 ![TS_equation1](https://i.imgur.com/QCzFsXv.gif)</br>
 
@@ -51,13 +50,13 @@ ATCk(d) denotes the ATC codes at the Kth level. This is then used to calculate T
 * d1 and d2 are the two drugs represented as nodes to be connected or not</br>
 * n ranges from 1 to 5, representing all possible ATC levels.	</br>
 
-  -Therapeutic similarity can be understood to be a measure of effectiveness of a drug pair. 
-  -This value determines the width of the edge connecting the two nodes. No edge means no similarity.
-  -The two equations and the visual representation of the drug network, a time and labor efficient method of unearthing effective combinations is born. 
+    Therapeutic similarity can be understood to be a measure of effectiveness of a drug pair.</br> 
+    This value determines the width of the edge connecting the two nodes. No edge means no similarity.</br>
+    The two equations and the visual representation of the drug network, a time and labor efficient method of unearthing effective combinations is born. 
 
-  The combinations theorized by drug networks are tested rigorously through clinical trials to determine the validity of the combination.
+The combinations theorized by drug networks are tested rigorously through clinical trials to determine the validity of the combination.
 
-  To name a few that Xu favors, dermatologists confirmed the efficacy of their combination drug named Tri-Luma amongst Asian subjects burdened with Melasma, a pigmentary disorder involving increased melanin. The questionnaires distributed to those consuming the drug combo and the conventional treatment revealed those of the former had much higher satisfaction scores than those of the latter. Similar degrees of success were found in experiments surrounding people with various comorbidities that negate the curative properties of a lone drug, but find themselves outmatched when confronted with a fusion of them. For instance, diabetes may worsen high blood pressure normally present in those with hypertension, but Amiloride and Hydrochlorothiazide mixture helped them both. 
+To name a few that Xu favors, dermatologists confirmed the efficacy of their combination drug named Tri-Luma amongst Asian subjects burdened with Melasma, a pigmentary disorder involving increased melanin. The questionnaires distributed to those consuming the drug combo and the conventional treatment revealed those of the former had much higher satisfaction scores than those of the latter. Similar degrees of success were found in experiments surrounding people with various comorbidities that negate the curative properties of a lone drug, but find themselves outmatched when confronted with a fusion of them. For instance, diabetes may worsen high blood pressure normally present in those with hypertension, but Amiloride and Hydrochlorothiazide mixture helped them both. 
 
   One drawback to the network is that, while they identify complementary combos, they lack info on the dosages or drug concentrations. Many conventional medicine advise patients to take an arbitrary amount catered to average individuals. But it defeats precision medicine’s purpose to generalize dosage, so longer trials, lengthened due to the need to gather results arising from different dosages and their effects on the subjects, are needed. With billions of existing drugs, an amount growing by the second, the optimized methods described here may still take a long amount of time. Certain diseases may need to be prioritized, meaning the treatment for others must endure delays. 
  
@@ -95,7 +94,7 @@ samples.
 
 A linear regression model was used in order to inquire which genes are sensitive to each drug across all samples while taking into consideration confounding factors such as age, batch, cancer type, tissue and cancer cell line genotype. These factors were chosen because they are hypothesized to contribute to gene expression variation in response to drug treatment.
 
-Through this, the sensitivity regression coefficient, γj was calculated across all samples and all genes  
+Through this, the sensitivity regression coefficient, γj was calculated across all samples and all genes  </br>
 
 ![equa4](eq4.PNG)</br>
 
@@ -123,7 +122,7 @@ From the outputted sensitivity coefficients, a permutation test was run 1,000 ti
 
 The genes identified as sensitive to a given drug were then separated into genes that were positively regulated (upregulated) in response to the drug, or negatively regulated (downregulated). These expression patterns of the significantly sensitive DRA genes for the drug 17-AAG are visualized using a heatmap of the z-scores of the gene expression across all samples (columns) and genes (rows).
 
-![lasteq](lastpic.PNG)
+![lasteq](lastpic.PNG)</br>
 As seen above, hierarchical clustering was performed with a Euclidean distance metric on both samples and genes. The clustering reveals that there are 2 main groups of genes based on their expression values: genes with relatively low sensitivity to the drug deemed “non-sensitive group” and genes with relatively high sensitivity to the drug deemed “sensitive group”. The clustering of “non-sensitive” and “sensitive” groups was seen across all 14 drugs. A student t-test was run between these groups across all drugs and all p-values were found to be less than 2.0 × 10^−7.
 
 Hence, the study demonstrates a correlation between the gene expression of DRA genes and drug sensitivity allowing a different approach to construct drugs that better pinpoints drug targets through analysis of  transcriptome data. Further, the study continues by analyzing the same expression profiles per groups believed to influence drug response such as gender and age supplying researchers the ability to distinguish which genes are more sensitive to specific drugs  for a given subpopulation. It has provided a more calculated advance in drug production by taking into account the genomic aspect of the population. Moving forward, precision medicine is becoming a reality since drugs can be developed for specific subpopulations given their molecular drug response. 
