@@ -6,8 +6,7 @@
 #### 2. [A Brief History on Pharmacogenetics & Pharmacogenomics.](#2)
 #### 3. [Personalizing drugs through pharmacogenomics.](#3) 
 #### 4. [Applications of Bioinformatic tools:RNASeq](#4) 
-#### 5. [Next steps in pharmacogenomics.](#5)
-#### 6. [References](#6)
+#### 5. [References](#6)
 
 
 ### Part 1: Introduction to Precision Medicine<a name="1"></a>
@@ -30,7 +29,7 @@ An overall layout of the procedure is seen below
   Combining drugs allows them to accomplish what one alone cannot, enabling treatment of aggressive diseases such as cancer from multiple angles. These drugs tend to be more selective, with a limited scope, granting more precise action and lessened side effects. Incorporating selective medicines forms a medicinal team capable of launching several accurate defenses at multiple areas. However, careless combination can lead drugs to counter each other’s effects, a quality known as antagonism.
   A group led by Ke-Jia Xu pioneered the creation of a drug network. The network and corresponding formula predicts synergistic drugs and thus saves time otherwise wasted on testing combinations by brute force. Drug network construction is an efficient method where drugs are represented as nodes and connected by edges with widths proportional to their ability to complement one another also known as therapeutic similarity. The following equation depicts how the drug network is constructed. 
  
-![equation](fig1.png)
+![equation](eq2.PNG)
 
 N is the number of drugs in the network
 n1 & n2 are the partners of drugs 1 and 2
@@ -49,6 +48,7 @@ ATCk(d) denotes the ATC codes at the Kth level. This is then used to calculate T
 ![TS_equation2](https://i.imgur.com/btjOcUw.gif)
 d1 and d2 are the two drugs represented as nodes to be connected or not and 
 n ranges from 1 to 5, representing all possible ATC levels.	
+
   -Therapeutic similarity can be understood to be a measure of effectiveness of a drug pair. 
   -This value determines the width of the edge connecting the two nodes. No edge means no similarity.
   -The two equations and the visual representation of the drug network, a time and labor efficient method of unearthing effective combinations is born. 
@@ -95,8 +95,7 @@ A linear regression model was used in order to inquire which genes are sensitive
 
 Through this, the sensitivity regression coefficient, γj was calculated across all samples and all genes  
 
-!!!!!!!PUT IMAGE!!!!!!
-
+![equa4](eq4.PNG)
 
 Yij is the expression level of gene j in sample i 
 Sensitivityi is the drug sensitivity of sample i
@@ -122,10 +121,8 @@ From the outputted sensitivity coefficients, a permutation test was run 1,000 ti
 
 The genes identified as sensitive to a given drug were then separated into genes that were positively regulated (upregulated) in response to the drug, or negatively regulated (downregulated). These expression patterns of the significantly sensitive DRA genes for the drug 17-AAG are visualized using a heatmap of the z-scores of the gene expression across all samples (columns) and genes (rows).
 
-
-!!!!!PUT IMG!!!!!!
-
-As seen above, hierarchical clustering was performed with a Euclidean distance metric on both samples and genes. The clustering reveals that there are 2 main groups of genes based on their expression values: genes with relatively low sensitivity to the drug deemed “non-sensitive group” and genes with relatively high sensitivity to the drug deemed “sensitive group”. The clustering of “non-sensitive” and “sensitive” groups was seen across all 14 drugs. A student t-test was run between these groups across all drugs and all p-values were found to be less than 2.0 × 10−7.
+![lasteq](lastpic.PNG)
+As seen above, hierarchical clustering was performed with a Euclidean distance metric on both samples and genes. The clustering reveals that there are 2 main groups of genes based on their expression values: genes with relatively low sensitivity to the drug deemed “non-sensitive group” and genes with relatively high sensitivity to the drug deemed “sensitive group”. The clustering of “non-sensitive” and “sensitive” groups was seen across all 14 drugs. A student t-test was run between these groups across all drugs and all p-values were found to be less than 2.0 × 10^−7.
 
 Hence, the study demonstrates a correlation between the gene expression of DRA genes and drug sensitivity allowing a different approach to construct drugs that better pinpoints drug targets through analysis of  transcriptome data. Further, the study continues by analyzing the same expression profiles per groups believed to influence drug response such as gender and age supplying researchers the ability to distinguish which genes are more sensitive to specific drugs  for a given subpopulation. It has provided a more calculated advance in drug production by taking into account the genomic aspect of the population. Moving forward, precision medicine is becoming a reality since drugs can be developed for specific subpopulations given their molecular drug response. 
 
