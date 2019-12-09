@@ -29,7 +29,7 @@ An overall layout of the procedure is seen below
   Combining drugs allows them to accomplish what one alone cannot, enabling treatment of aggressive diseases such as cancer from multiple angles. These drugs tend to be more selective, with a limited scope, granting more precise action and lessened side effects. Incorporating selective medicines forms a medicinal team capable of launching several accurate defenses at multiple areas. However, careless combination can lead drugs to counter each other’s effects, a quality known as antagonism.
   A group led by Ke-Jia Xu pioneered the creation of a drug network. The network and corresponding formula predicts synergistic drugs and thus saves time otherwise wasted on testing combinations by brute force. Drug network construction is an efficient method where drugs are represented as nodes and connected by edges with widths proportional to their ability to complement one another also known as therapeutic similarity. The following equation depicts how the drug network is constructed. 
  
-![equation](eq2.PNG)
+![equation](eq2.PNG)</br>
 
 N is the number of drugs in the network
 n1 & n2 are the partners of drugs 1 and 2
@@ -42,10 +42,11 @@ Drug nodes that are particularly popular with other drugs are colored red, meani
   
   Alternatively, since drug networks aren’t the first attempt to calculate effective combinations, it’s also possible to draw data from previous forays to simplify the process, like the Drug Combination Database. After expelling the combos lacking Anatomical Therapeutic Chemical (ATC), which saves computational time, they feed the ATC of various drugs into the following formula 
 
-![TS_equation1](https://i.imgur.com/QCzFsXv.gif)
+![TS_equation1](https://i.imgur.com/QCzFsXv.gif)</br>
+
 ATCk(d) denotes the ATC codes at the Kth level. This is then used to calculate Therapeutic similarity:
 
-![TS_equation2](https://i.imgur.com/btjOcUw.gif)
+![TS_equation2](https://i.imgur.com/btjOcUw.gif)</br>
 d1 and d2 are the two drugs represented as nodes to be connected or not and 
 n ranges from 1 to 5, representing all possible ATC levels.	
 
@@ -84,7 +85,7 @@ Another example of genome-wide studies revealing problematic SNPs is a study by 
 
 Drug sensitivity can be visualized as a histogram. Below, histograms are denoted  as sensitivity value for each 323 cell lines treated with 24 drugs. The sensitivity of the drug was measured by measuring the area under the dose-response curve (denoted as activity area). 
 
-![image](srep22811-f1.jpg)
+![image](srep22811-f1.jpg)</br>
 
 Figure 2: Each histogram denotes the distribution of sensitivity values of a drug treating on cancer cell lines.
 
@@ -95,7 +96,7 @@ A linear regression model was used in order to inquire which genes are sensitive
 
 Through this, the sensitivity regression coefficient, γj was calculated across all samples and all genes  
 
-![equa4](eq4.PNG)
+![equa4](eq4.PNG)</br>
 
 Yij is the expression level of gene j in sample i 
 Sensitivityi is the drug sensitivity of sample i
